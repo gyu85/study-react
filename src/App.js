@@ -4,7 +4,10 @@
 // import FunctionalComponent from './components/2-5.State/FunctionalComponent';
 // import ClassComponent2 from './components/2-6.LifeCycle/ClassComponent';
 // import Event from './components/2-7.Event/Event';
-import Condition from './components/2-8.ConditionalRendering/Condition';
+// import Condition from './components/2-8.ConditionalRendering/Condition';
+// import List from './components/2-9.List/List';
+import ControlledComponent from './components/2-10.Forms/ControlledComponent';
+import UnControlledComponent from './components/2-10.Forms/UnControlledComponent';
 
 function App() {
   return (
@@ -15,8 +18,11 @@ function App() {
       <FunctionalComponent />
       <ClassComponent2 /> 
       <Event />
-      */}
       <Condition />
+      <List />
+      */}
+      <UnControlledComponent />
+      <ControlledComponent />
     </div>
   );
 }
