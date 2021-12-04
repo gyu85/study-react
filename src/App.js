@@ -6,12 +6,16 @@
 // import Event from './components/2-7.Event/Event';
 // import Condition from './components/2-8.ConditionalRendering/Condition';
 // import List from './components/2-9.List/List';
-import ControlledComponent from './components/2-10.Forms/ControlledComponent';
-import UnControlledComponent from './components/2-10.Forms/UnControlledComponent';
+// import ControlledComponent from './components/2-10.Forms/ControlledComponent';
+// import UnControlledComponent from './components/2-10.Forms/UnControlledComponent';
+import State from './components/3-3.Hooks/State';
+import Reducer from './components/3-3.Hooks/Reducer';
 
 function App() {
   return (
     <div className='App'>
+      <Reducer />
+      <State />
       {/* <Composition />
       <Extraction />
       <ClassComponent />
@@ -20,9 +24,9 @@ function App() {
       <Event />
       <Condition />
       <List />
-      */}
       <UnControlledComponent />
       <ControlledComponent />
+      */}
     </div>
   );
 }
