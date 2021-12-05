@@ -14,19 +14,18 @@ import Reducer from './components/3-3.Hooks/Reducer';
 function App() {
   return (
     <div className='App'>
-      <Reducer />
+      {/* <Composition /> */}
+      {/* <Extraction /> */}
+      {/* <ClassComponent /> */}
+      {/* <FunctionalComponent /> */}
+      {/* <ClassComponent2 />  */}
+      {/* <Event /> */}
+      {/* <Condition /> */}
+      {/* <List /> */}
+      {/* <UnControlledComponent /> */}
+      {/* <ControlledComponent /> */}
       <State />
-      {/* <Composition />
-      <Extraction />
-      <ClassComponent />
-      <FunctionalComponent />
-      <ClassComponent2 /> 
-      <Event />
-      <Condition />
-      <List />
-      <UnControlledComponent />
-      <ControlledComponent />
-      */}
+      <Reducer />
     </div>
   );
 }
