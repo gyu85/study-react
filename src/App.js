@@ -8,8 +8,11 @@
 // import List from './components/2-9.List/List';
 // import ControlledComponent from './components/2-10.Forms/ControlledComponent';
 // import UnControlledComponent from './components/2-10.Forms/UnControlledComponent';
-import State from './components/3-3.Hooks/State';
-import Reducer from './components/3-3.Hooks/Reducer';
+// import State from './components/3-3.Hooks/State';
+// import Reducer from './components/3-3.Hooks/Reducer';
+// import WelcomDialog from './components/3-5.Composition/WelcomDialog';
+// import Dialog from './components/3-6.Composition2/Dialog';
+import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
 
 function App() {
   return (
@@ -24,8 +27,11 @@ function App() {
       {/* <List /> */}
       {/* <UnControlledComponent /> */}
       {/* <ControlledComponent /> */}
-      <State />
-      <Reducer />
+      {/* <State /> */}
+      {/* <Reducer /> */}
+      {/* <WelcomDialog /> */}
+      {/* <Dialog /> */}
+      <ThankyouDialog />
     </div>
   );
 }
