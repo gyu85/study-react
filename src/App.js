@@ -16,7 +16,8 @@
 // import Input from './components/3-7.HOC/Input';
 // import Button from './components/3-7.HOC/Button';
 // import Memo from './components/3-8.Memoization/Memo';
-import Example from './components/3-10.Context/Example';
+// import Example from './components/3-10.Context/Example';
+import Example from './components/3-11.Portals/Example';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
       {/* <Input /> */}
       {/* <Button /> */}
       {/* <Memo /> */}
+      {/* <Example /> */}
       <Example />
     </div>
   );
