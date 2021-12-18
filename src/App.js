@@ -17,7 +17,8 @@
 // import Button from './components/3-7.HOC/Button';
 // import Memo from './components/3-8.Memoization/Memo';
 // import Example from './components/3-10.Context/Example';
-import Example from './components/3-11.Portals/Example';
+// import Example from './components/3-11.Portals/Example';
+import PeakList from './components/3-12.RenderProps/PeakList';
 
 function App() {
   return (
@@ -41,7 +42,8 @@ function App() {
       {/* <Button /> */}
       {/* <Memo /> */}
       {/* <Example /> */}
-      <Example />
+      {/* <Example /> */}
+      <PeakList />
     </div>
   );
 }
