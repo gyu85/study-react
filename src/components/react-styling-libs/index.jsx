@@ -1,10 +1,12 @@
 import React from 'react';
-import StyledComponent from './StyledComponent';
+// import StyledComponent from './StyledComponent';
+import SassExample from './SassExample';
 
 const reactStylingLibs = () => {
   return (
     <div>
-      <StyledComponent />
+      {/* <StyledComponent /> */}
+      <SassExample />
     </div>
   );
 };
